@@ -1,0 +1,74 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.filter,
+.layout {
+  float: left;
+  margin-right: 12px;
+}
+
+.card {
+  /* display: inline; */
+  border-radius: 1em;
+  border: 4px solid green;
+  width: 250px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.layout {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+header h1 {
+  font-family: 'Josefin Sans';
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 250px 140px 140px 40px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.list div {
+  display: inline-grid;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.list div:first-child {
+  font-size: 1.3em;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card div {
+  padding-bottom: 4px;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.card div:first-child {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
